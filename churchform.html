@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Jerusalem Church Of God</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <form action="results.html" method="GET" id="first-form">
+        <h1>New Jerusalem Church Of God</h1>
+        <p>(609) 363-1596</p>
+        <p>Fiche d'Informations du Membre</p>
+        <br>
+
+        <fieldset>
+            <legend>Information Personel</legend>
+            <div>
+                <label for="name" class ="check">Nom:</label>
+                <input type="text" name= "name" id="name" autocomplete="off">
+             </div>
+     
+             <div>
+                 <label for="lastname">Prenom:</label>
+                 <input type="text" name="lastname" id="lastname">
+              </div>
+     
+              <div>
+                 <label for="DOB">Date de Naissance:</label>
+                 <input type="date" name="DOB" id="DOB">
+              </div>
+     
+              <div>
+                 <label for="place-of-birth">Lieu de Naissance:</label>
+                 <input type="text-area" name="place-of-birth" id="place-of-birth">
+              </div>
+
+        </fieldset>
+
+         <div id="kids">
+
+         </div>
+        
+         <div>
+            <button class="child-button">Enfants moins de 12 ans</button>
+         </div>
+        <div>
+            <fieldset>
+                <legend>Phone Number:</legend>
+                <div>
+                    <label for="house-phone">Maison:</label>
+                    <input type="phone" name="house-phone" id="house-phone">
+                </div>
+
+                <div>
+                    <label for="mobile">Portable: </label>
+                    <input type="phone" name="mobile" id="mobile">
+                </div>
+            </fieldset>
+             
+        </div>
+
+        <div>
+            <fieldset>
+                 <legend>Address</legend>
+                 <div>
+                    <label for="address1">Adresse:</label>
+                    <input type="text" name="address" id="address">   
+                 </div>
+
+                 <!-- <div>
+                    <label for="address2">Adresse Line 2:</label>
+                    <input type="text" name="address" id="address2">   
+                 </div> -->
+
+                 <div>
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city">
+                 </div>
+       
+                <div>
+                   <label for="state">Etat:</label>
+                   <input type="text" name="state" id="state">
+               </div>
+
+               <div class="zip-code-section">
+                    <label for="zip-code">Code Postal:</label>
+                    <input type="text" name="zip-code" id="zip-code">
+                </div>
+            </fieldset>  
+
+        </div>
+        <div>
+            <fieldset>
+                <legend>Eglise Information</legend>
+                    <div>
+                        <label for="batism">Date de Conversion:</label>
+                        <input type="text" name="batism" id="batism"> 
+                    </div>
+                    
+                    <div>
+                        <label for="date-batism">Date de bapteme:</label>
+                        <input type="date" name="date-batism" id="date-batism">
+                    </div>
+                    <div>
+                        <label for="participation">Activite exercee a l'eglise:</label>
+                        <input type="text" name="participation" id="participation">
+                    </div>
+
+            </fieldset>
+            
+        </div>
+
+        <fieldset>
+            <legend>Travail</legend>
+                <div>
+                    <label for="profession">Activite Professionelle:</label>
+                    <input type="text" name="profession" id="profession">
+                </div>
+                <div>
+                    <label for="work-address">Address:</label>
+                    <input type="text-area" name="work-address" id="work-address">
+                </div>
+
+                <div>
+                    <label for="supervisor-name">Nom de superviseur:</label>
+                    <input type="text" name="supervisor-name" id="supervisor-name">
+                </div>
+        </fieldset>
+
+        <div id="button-div">
+            <button type="submit" id="submit-button">submit</button>
+        </div>
+
+
+
+
+        
+    </form>
+    
+</body>
+</html>
